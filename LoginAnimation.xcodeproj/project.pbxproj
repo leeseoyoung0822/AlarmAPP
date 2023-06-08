@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D121D5C2A3045E100F4ACFC /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1D121D5B2A3045E100F4ACFC /* FacebookCore */; };
+		1D121D5E2A3045E100F4ACFC /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 1D121D5D2A3045E100F4ACFC /* FacebookLogin */; };
+		1D1BC6D72A1CEA1300BB6CB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BC6D62A1CEA1300BB6CB6 /* MainViewController.swift */; };
+		1D1BC6D92A1CFA8D00BB6CB6 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BC6D82A1CFA8D00BB6CB6 /* AlarmViewController.swift */; };
+		1D1BC6DD2A1DB01600BB6CB6 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BC6DC2A1DB01600BB6CB6 /* AlarmCell.swift */; };
+		1DF54E222A16685D0093220C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF54E212A16685D0093220C /* AppDelegate.swift */; };
+		1DF54E242A16685D0093220C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF54E232A16685D0093220C /* SceneDelegate.swift */; };
+		1DF54E262A16685D0093220C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF54E252A16685D0093220C /* ViewController.swift */; };
+		1DF54E292A16685D0093220C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF54E272A16685D0093220C /* Main.storyboard */; };
+		1DF54E2B2A16685F0093220C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF54E2A2A16685F0093220C /* Assets.xcassets */; };
+		1DF54E2E2A16685F0093220C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF54E2C2A16685F0093220C /* LaunchScreen.storyboard */; };
+		1DF54E362A1669DC0093220C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF54E352A1669DC0093220C /* LoginViewController.swift */; };
+		DEE8A9F8F4D6D0D06F4537CB /* libPods-LoginAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C8D57BCFCF1BC943DE64A /* libPods-LoginAnimation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ABC28D7B32A21A798A4A5A6 /* Pods-LoginAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAnimation.release.xcconfig"; path = "Target Support Files/Pods-LoginAnimation/Pods-LoginAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		1D1BC6D62A1CEA1300BB6CB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1D1BC6D82A1CFA8D00BB6CB6 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		1D1BC6DC2A1DB01600BB6CB6 /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		1DF54E1E2A16685D0093220C /* LoginAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF54E212A16685D0093220C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DF54E232A16685D0093220C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DF54E252A16685D0093220C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DF54E282A16685D0093220C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DF54E2A2A16685F0093220C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DF54E2D2A16685F0093220C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DF54E2F2A16685F0093220C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF54E352A1669DC0093220C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		437B9441FC3EDFB4EF30AA4F /* Pods-LoginAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAnimation.debug.xcconfig"; path = "Target Support Files/Pods-LoginAnimation/Pods-LoginAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		E63C8D57BCFCF1BC943DE64A /* libPods-LoginAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF54E1B2A16685D0093220C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D121D5C2A3045E100F4ACFC /* FacebookCore in Frameworks */,
+				1D121D5E2A3045E100F4ACFC /* FacebookLogin in Frameworks */,
+				DEE8A9F8F4D6D0D06F4537CB /* libPods-LoginAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF54E152A16685D0093220C = {
+			isa = PBXGroup;
+			children = (
+				1DF54E202A16685D0093220C /* LoginAnimation */,
+				1DF54E1F2A16685D0093220C /* Products */,
+				51523DB31F81DFF0F6F8D867 /* Pods */,
+				318AA00B4375C5AF36998A51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF54E1F2A16685D0093220C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF54E1E2A16685D0093220C /* LoginAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF54E202A16685D0093220C /* LoginAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1DF54E212A16685D0093220C /* AppDelegate.swift */,
+				1DF54E232A16685D0093220C /* SceneDelegate.swift */,
+				1DF54E252A16685D0093220C /* ViewController.swift */,
+				1DF54E272A16685D0093220C /* Main.storyboard */,
+				1DF54E2A2A16685F0093220C /* Assets.xcassets */,
+				1DF54E2C2A16685F0093220C /* LaunchScreen.storyboard */,
+				1DF54E2F2A16685F0093220C /* Info.plist */,
+				1DF54E352A1669DC0093220C /* LoginViewController.swift */,
+				1D1BC6D62A1CEA1300BB6CB6 /* MainViewController.swift */,
+				1D1BC6D82A1CFA8D00BB6CB6 /* AlarmViewController.swift */,
+				1D1BC6DC2A1DB01600BB6CB6 /* AlarmCell.swift */,
+			);
+			path = LoginAnimation;
+			sourceTree = "<group>";
+		};
+		318AA00B4375C5AF36998A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63C8D57BCFCF1BC943DE64A /* libPods-LoginAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51523DB31F81DFF0F6F8D867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				437B9441FC3EDFB4EF30AA4F /* Pods-LoginAnimation.debug.xcconfig */,
+				0ABC28D7B32A21A798A4A5A6 /* Pods-LoginAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF54E1D2A16685D0093220C /* LoginAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF54E322A16685F0093220C /* Build configuration list for PBXNativeTarget "LoginAnimation" */;
+			buildPhases = (
+				491367B0E9C6E84FA970EADB /* [CP] Check Pods Manifest.lock */,
+				1DF54E1A2A16685D0093220C /* Sources */,
+				1DF54E1B2A16685D0093220C /* Frameworks */,
+				1DF54E1C2A16685D0093220C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginAnimation;
+			packageProductDependencies = (
+				1D121D5B2A3045E100F4ACFC /* FacebookCore */,
+				1D121D5D2A3045E100F4ACFC /* FacebookLogin */,
+			);
+			productName = LoginAnimation;
+			productReference = 1DF54E1E2A16685D0093220C /* LoginAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF54E162A16685D0093220C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1DF54E1D2A16685D0093220C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1DF54E192A16685D0093220C /* Build configuration list for PBXProject "LoginAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF54E152A16685D0093220C;
+			packageReferences = (
+				1D121D5A2A3045E100F4ACFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 1DF54E1F2A16685D0093220C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF54E1D2A16685D0093220C /* LoginAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF54E1C2A16685D0093220C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF54E2E2A16685F0093220C /* LaunchScreen.storyboard in Resources */,
+				1DF54E2B2A16685F0093220C /* Assets.xcassets in Resources */,
+				1DF54E292A16685D0093220C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		491367B0E9C6E84FA970EADB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF54E1A2A16685D0093220C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF54E362A1669DC0093220C /* LoginViewController.swift in Sources */,
+				1DF54E262A16685D0093220C /* ViewController.swift in Sources */,
+				1D1BC6D92A1CFA8D00BB6CB6 /* AlarmViewController.swift in Sources */,
+				1D1BC6DD2A1DB01600BB6CB6 /* AlarmCell.swift in Sources */,
+				1DF54E222A16685D0093220C /* AppDelegate.swift in Sources */,
+				1DF54E242A16685D0093220C /* SceneDelegate.swift in Sources */,
+				1D1BC6D72A1CEA1300BB6CB6 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DF54E272A16685D0093220C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF54E282A16685D0093220C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DF54E2C2A16685F0093220C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF54E2D2A16685F0093220C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DF54E302A16685F0093220C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DF54E312A16685F0093220C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF54E332A16685F0093220C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437B9441FC3EDFB4EF30AA4F /* Pods-LoginAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softsquared.ios.LoginAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DF54E342A16685F0093220C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABC28D7B32A21A798A4A5A6 /* Pods-LoginAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softsquared.ios.LoginAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF54E192A16685D0093220C /* Build configuration list for PBXProject "LoginAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF54E302A16685F0093220C /* Debug */,
+				1DF54E312A16685F0093220C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF54E322A16685F0093220C /* Build configuration list for PBXNativeTarget "LoginAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF54E332A16685F0093220C /* Debug */,
+				1DF54E342A16685F0093220C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D121D5A2A3045E100F4ACFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D121D5B2A3045E100F4ACFC /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D121D5A2A3045E100F4ACFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		1D121D5D2A3045E100F4ACFC /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D121D5A2A3045E100F4ACFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1DF54E162A16685D0093220C /* Project object */;
+}

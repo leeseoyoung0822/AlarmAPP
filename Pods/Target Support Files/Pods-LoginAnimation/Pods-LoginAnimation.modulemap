@@ -1,0 +1,6 @@
+module Pods_LoginAnimation {
+  umbrella header "Pods-LoginAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
